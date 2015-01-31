@@ -1,0 +1,223 @@
+[ruby1.9.3-with-tk]  Starting Mon Nov 24 06:31:08 IST 2014
+
+======================================================================
+
+This script for Mac OS X tries to install ruby 1.9.3 with tk 8.5:
+  * The installation (including homebrew) will be entirely self-contained
+    and will not affect any tools you have installed already.
+  * It will modify .bash_profile if you ask it to.
+  * It will install in /Users/venkat/ruby1.9.3-with-tk and create a log in ./proglang-proglang-002-software_installation-install-ruby1.9.3-with-tk.sh.log
+  * Renaming or moving /Users/venkat/ruby1.9.3-with-tk might break ruby.
+  * To uninstall, delete /Users/venkat/ruby1.9.3-with-tk
+  * To install elsewhere, run:
+      bash ./proglang-proglang-002-software_installation-install-ruby1.9.3-with-tk.sh "elsewhere"
+
+======================================================================
+
+[ruby1.9.3-with-tk]  1. Check Mac OS X.  [start]
+Darwin Venkats-MacBook-Pro-2.local 14.0.0 Darwin Kernel Version 14.0.0: Fri Sep 19 00:26:44 PDT 2014; root:xnu-2782.1.97~2/RELEASE_X86_64 x86_64
+[ruby1.9.3-with-tk]  This is not a Mac OS X I know about.  Hit Control-C to cancel or RETURN to continue.[ruby1.9.3-with-tk]  Attempting install on unknown Mac OS X.
+[ruby1.9.3-with-tk]  1. Check Mac OS X.  [done]
+
+======================================================================
+
+[ruby1.9.3-with-tk]  2. Check for Xcode commmand line tools.  [start]
+[ruby1.9.3-with-tk]  Please install Xcode and its command line tools.
+[ruby1.9.3-with-tk]  2: Check for Xcode commmand line tools.  [FAILED]
+[ruby1.9.3-with-tk]  Failure happened with environment:
+TERM_PROGRAM=Apple_Terminal
+TERM=xterm-256color
+SHELL=/bin/bash
+TMPDIR=/var/folders/q2/wckkv6ls2ks09f538q6jtswh0000gn/T/
+Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.9E64QXHCRX/Render
+TERM_PROGRAM_VERSION=343
+TERM_SESSION_ID=194F9E51-0E72-49F6-B822-2894203574A9
+LC_ALL=en_US.UTF-8
+USER=venkat
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.870aWsQqHH/Listeners
+__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0
+COM_GOOGLE_CHROME_FRAMEWORK_SERVICE_PROCESS/USERS/VENKAT/LIBRARY/APPLICATION_SUPPORT/GOOGLE/CHROME_SOCKET=/private/tmp/com.apple.launchd.CCivJ3ZFhN/ServiceProcessSocket
+HOMEBREW_CACHE=/Users/venkat/ruby1.9.3-with-tk/homebrew-cache
+PATH=/opt/gcc-4.8.1/bin:/Users/venkat/Downloads/mongodb-osx-x86_64-2.4.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/usr/local/go/bin:/usr/texbin:/Users/venkat/Documents/Projects/go/bin:/usr/local/smlnj/bin
+PWD=/Users/venkat/Documents/Coursera/Programming Languages/Assignment6
+LANG=en_US.UTF-8
+XPC_FLAGS=0x0
+INSTALL_RUBY_WITH_TK_SCRIPT_LOGGING=./proglang-proglang-002-software_installation-install-ruby1.9.3-with-tk.sh
+XPC_SERVICE_NAME=0
+HOME=/Users/venkat
+SHLVL=3
+LOGNAME=venkat
+LC_CTYPE=UTF-8
+GOPATH=/Users/venkat/Documents/Projects/go
+DISPLAY=/private/tmp/com.apple.launchd.1jWlzXrQlr/org.macosforge.xquartz:0
+_=/usr/bin/env
+[ruby1.9.3-with-tk]  2: Check for Xcode commmand line tools.  [FAILED]
+[ruby1.9.3-with-tk]  Starting Mon Nov 24 06:40:50 IST 2014
+
+======================================================================
+
+This script for Mac OS X tries to install ruby 1.9.3 with tk8.5:
+  * The installation (including homebrew) will be entirely self-contained
+    and will not affect any tools you have installed already.
+  * It will modify .bash_profile if you ask it to.
+  * It will install in /Users/venkat/ruby1.9.3-with-tk and create a log in ./proglang-proglang-002-software_installation-install-ruby1.9.3-with-tk.sh.log
+  * Renaming or moving /Users/venkat/ruby1.9.3-with-tk might break ruby.
+  * To uninstall, delete /Users/venkat/ruby1.9.3-with-tk
+  * To install elsewhere, run:
+      bash ./proglang-proglang-002-software_installation-install-ruby1.9.3-with-tk.sh "elsewhere"
+
+======================================================================
+
+[ruby1.9.3-with-tk]  1. Check Mac OS X.  [start]
+Darwin Venkats-MacBook-Pro-2.local 14.0.0 Darwin Kernel Version 14.0.0: Fri Sep 19 00:26:44 PDT 2014; root:xnu-2782.1.97~2/RELEASE_X86_64 x86_64
+[ruby1.9.3-with-tk]  This is not a Mac OS X I know about.  Hit Control-C to cancel or RETURN to continue.[ruby1.9.3-with-tk]  Attempting install on unknown Mac OS X.
+[ruby1.9.3-with-tk]  1. Check Mac OS X.  [done]
+
+======================================================================
+
+[ruby1.9.3-with-tk]  2. Check for Xcode commmand line tools.  [start]
+gcc (GCC) 4.8.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+[ruby1.9.3-with-tk]  2. Check for Xcode commmand line tools.  [done]
+
+======================================================================
+
+[ruby1.9.3-with-tk]  3. Check for Tcl/Tk.  [start]
+WARNING: found /Library/Frameworks/Tk.framework/Versions/8.5
+I will try to use it instead of /System/Library/Frameworks/Tk.framework/Versions/8.5.
+If that doesn't work, try running the following variation on this script:
+
+  env FORCE_SYSTEM_TK=yes bash ./proglang-proglang-002-software_installation-install-ruby1.9.3-with-tk.sh
+
+Hit RETURN to continue.[ruby1.9.3-with-tk]  3. Check for Tcl/Tk.  [done]
+
+======================================================================
+
+[ruby1.9.3-with-tk]  4. Create /Users/venkat/ruby1.9.3-with-tk.  [start]
+total 0
+drwxr-xr-x  2 venkat  staff    68B Nov 24 06:41 bin
+drwxr-xr-x  2 venkat  staff    68B Nov 24 06:41 homebrew
+[ruby1.9.3-with-tk]  4. Create /Users/venkat/ruby1.9.3-with-tk.  [done]
+
+======================================================================
+
+[ruby1.9.3-with-tk]  5. Download homebrew to /Users/venkat/ruby1.9.3-with-tk/homebrew.  [start]
+[ruby1.9.3-with-tk]  5. Download homebrew to /Users/venkat/ruby1.9.3-with-tk/homebrew.  [done]
+
+======================================================================
+
+[ruby1.9.3-with-tk]  6. Check homebrew.  [start]
+0.9.5
+[ruby1.9.3-with-tk]  6. Check homebrew.  [done]
+
+======================================================================
+
+[ruby1.9.3-with-tk]  7. Tap alternate ruby versions.  [start]
+Tapped 165 formulae
+[ruby1.9.3-with-tk]  7. Tap alternate ruby versions.  [done]
+
+======================================================================
+
+[ruby1.9.3-with-tk]  8. Install ruby.  This will take a while.  [start]
+==> Installing ruby193 from homebrew/homebrew-versions
+==> Installing dependencies for ruby193: pkg-config, readline, gdbm, libyaml
+==> Installing ruby193 dependency: pkg-config
+==> Downloading http://pkgconfig.freedesktop.org/releases/pkg-config-0.28.tar.gz
+==> ./configure --prefix=/Users/venkat/ruby1.9.3-with-tk/homebrew/Cellar/pkg-config/0.28 --disable-host-tool --with-internal-glib --with-pc-path=/Users/venkat/ruby1.9.3-with-tk/homebrew/lib/pkgconfig:/Users/venkat/ruby1.9.3-with-tk/homebrew/share/pkgconfig:/usr/local/lib/pkgconfig:/usr/lib/pkgconfig:/Users/venkat/ruby1.9.3-with-tk/homebrew/Library/ENV/pkgconfig/10.10
+==> make
+==> make check
+==> make install
+🍺  /Users/venkat/ruby1.9.3-with-tk/homebrew/Cellar/pkg-config/0.28: 10 files, 612K, built in 2.6 minutes
+==> Installing ruby193 dependency: readline
+==> Downloading https://downloads.sf.net/project/machomebrew/Bottles/readline-6.3.8.yosemite.bottle.tar.gz
+==> Pouring readline-6.3.8.yosemite.bottle.tar.gz
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /Users/venkat/ruby1.9.3-with-tk/homebrew.
+
+Mac OS X provides similar software, and installing this software in
+parallel can cause all kinds of trouble.
+
+OS X provides the BSD libedit library, which shadows libreadline.
+In order to prevent conflicts when programs look for libreadline we are
+defaulting this GNU Readline installation to keg-only.
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/Users/venkat/ruby1.9.3-with-tk/homebrew/opt/readline/lib
+    CPPFLAGS: -I/Users/venkat/ruby1.9.3-with-tk/homebrew/opt/readline/include
+
+==> Summary
+🍺  /Users/venkat/ruby1.9.3-with-tk/homebrew/Cellar/readline/6.3.8: 40 files, 2.1M
+==> Installing ruby193 dependency: gdbm
+==> Downloading https://downloads.sf.net/project/machomebrew/Bottles/gdbm-1.11.yosemite.bottle.1.tar.gz
+==> Pouring gdbm-1.11.yosemite.bottle.1.tar.gz
+🍺  /Users/venkat/ruby1.9.3-with-tk/homebrew/Cellar/gdbm/1.11: 17 files, 532K
+==> Installing ruby193 dependency: libyaml
+==> Downloading https://downloads.sf.net/project/machomebrew/Bottles/libyaml-0.1.6.yosemite.bottle.1.tar.gz
+==> Pouring libyaml-0.1.6.yosemite.bottle.1.tar.gz
+🍺  /Users/venkat/ruby1.9.3-with-tk/homebrew/Cellar/libyaml/0.1.6: 7 files, 352K
+==> Installing ruby193
+==> Downloading http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p551.tar.bz2
+==> ./configure --prefix=/Users/venkat/ruby1.9.3-with-tk/homebrew/Cellar/ruby193/1.9.3-p551 --enable-shared --disable-tcltk-framework --with-out-ext=tcl --with-out-ext=tk --disable-install-doc
+==> make
+==> make install
+🍺  /Users/venkat/ruby1.9.3-with-tk/homebrew/Cellar/ruby193/1.9.3-p551: 795 files, 17M, built in 3.1 minutes
+[ruby1.9.3-with-tk]  8. Install ruby.  This will take a while.  [done]
+
+======================================================================
+
+[ruby1.9.3-with-tk]  9. Check ruby.  [start]
+ruby 1.9.3p551 (2014-11-13 revision 48407) [x86_64-darwin14.0.0]
+[ruby1.9.3-with-tk]  9. Check ruby.  [done]
+
+======================================================================
+
+[ruby1.9.3-with-tk]  10. Install ruby/tk bindings for /Library/Frameworks/Tk.framework/Versions/8.5.  This could take a while.  [start]
+Building native extensions.  This could take a while...
+Successfully installed tk_as_gem-0.1.0
+1 gem installed
+Installing ri documentation for tk_as_gem-0.1.0...
+Installing RDoc documentation for tk_as_gem-0.1.0...
+[ruby1.9.3-with-tk]  10. Install ruby/tk bindings for /Library/Frameworks/Tk.framework/Versions/8.5.  This could take a while.  [done]
+
+======================================================================
+
+[ruby1.9.3-with-tk]  11. Check ruby/tk.  [start]
+Success.
+[ruby1.9.3-with-tk]  11. Check ruby/tk.  [done]
+
+======================================================================
+
+[ruby1.9.3-with-tk]  12. Create symlinks in /Users/venkat/ruby1.9.3-with-tk/bin.  [start]
+total 24
+lrwxr-xr-x  1 venkat  staff    48B Nov 24 06:50 gem -> /Users/venkat/ruby1.9.3-with-tk/homebrew/bin/gem
+lrwxr-xr-x  1 venkat  staff    48B Nov 24 06:50 irb -> /Users/venkat/ruby1.9.3-with-tk/homebrew/bin/irb
+lrwxr-xr-x  1 venkat  staff    49B Nov 24 06:50 ruby -> /Users/venkat/ruby1.9.3-with-tk/homebrew/bin/ruby
+[ruby1.9.3-with-tk]  12. Create symlinks in /Users/venkat/ruby1.9.3-with-tk/bin.  [done]
+
+======================================================================
+
+[ruby1.9.3-with-tk]  13. Configure environment.  [start]
+
+Do you want to use this version of ruby by default?
+(The command 'ruby' would run this version of ruby.)
+Type 'yes' or 'no', then RETURN [default = no]:  
+Edited /Users/venkat/.bash_profile to add ruby/irb/gem to the PATH for future shells.
+Run 'source /Users/venkat/ruby1.9.3-with-tk/paths' to get this in the current shell.
+
+Do you also want this version of ruby aliased as 'ruby-tk'?
+(The command 'ruby-tk' would run this version of ruby.)
+Type 'yes' or 'no', then RETURN [default = no]:  
+Edited /Users/venkat/.bash_profile to add ruby-tk/irb-tk/gem-tk aliases in future shells.
+Run 'source /Users/venkat/ruby1.9.3-with-tk/aliases' to get this in the current shell.
+
+[ruby1.9.3-with-tk]  13. Configure environment.  [done]
+
+======================================================================
+
+[ruby1.9.3-with-tk]  14. Start using ruby with tk!  [start]
