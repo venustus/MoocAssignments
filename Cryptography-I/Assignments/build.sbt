@@ -7,3 +7,5 @@ scalaVersion := "2.10.2"
 libraryDependencies += "org.scalatest" % "scalatest_2.10" % "2.0" % "test"
 
 libraryDependencies += "org.scalacheck" %% "scalacheck" % "1.10.1"
+
+libraryDependencies += "net.databinder.dispatch" %% "dispatch-core" % "0.11.2"
